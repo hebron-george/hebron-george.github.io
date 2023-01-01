@@ -21,8 +21,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  hebron-george
 
 # Build settings
-markdown: kramdown
-theme: jekyll-theme-midnight
+theme: minima # jekyll-theme-midnight was causing build time errors: The jekyll-theme-midnight theme could not be found. (Jekyll::Errors::MissingDependencyException)
+#theme: jekyll-theme-midnight # was causing build time errors: The jekyll-theme-midnight theme could not be found. (Jekyll::Errors::MissingDependencyException)
 plugins:
   - jekyll-feed
 
