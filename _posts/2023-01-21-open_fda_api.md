@@ -140,7 +140,9 @@ result.dig("receivedate")
 
 The gem is still pretty new and needs to be iterated on but is mostly usable at the moment.
 
-Some things that could be improved upon are how the search query is created - it needs to be much more user friendly.
+Some things that could be improved upon are:
+- make the search query much more user friendly
+- generate documentation from RDoc/YARD style comments
 
 The FDA provides a downloadable list of fields that can be queried upon for each endpoint. The gem should use that list to verify that queries are valid.
 
